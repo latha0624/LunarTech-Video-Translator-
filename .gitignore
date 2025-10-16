@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Uploads and Outputs
+app/uploads/
+uploads/
+*.mp4
+*.wav
+*.mp3
+*.srt
+*.json
+*.tmp
+
+# Artifacts / Logs
+artifacts/
+logs/
+*.log
+*.jsonl
+
+# Cache
+.cache/
+.huggingface/
+transformers_cache/

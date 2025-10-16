@@ -1,6 +1,27 @@
-flask
-whisper
-transformers
-gtts
-torch
-ffmpeg-python
+# Core Framework
+Flask==3.0.3
+
+# Speech-to-Text
+faster-whisper==1.0.3
+torch>=2.0.0
+
+# Translation
+transformers==4.44.2
+sentencepiece>=0.2.0
+protobuf>=4.25.0
+
+# Text-to-Speech
+gTTS==2.5.3
+
+# Utilities
+ffmpeg-python==0.2.0
+googletrans==4.0.0rc1
+httpx==0.13.3
+requests>=2.31.0
+
+# Optional (for better performance / debugging)
+numpy>=1.26.0
+tqdm>=4.66.0
+
+# Audio/Video Handling
+pydub==0.25.1
