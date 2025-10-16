@@ -1,0 +1,9 @@
+models:
+  stt: "base"
+  translation: "Helsinki-NLP/opus-mt-en-fr"
+  tts_voice: "fr-FR-DeniseNeural"
+
+paths:
+  input_video: "input.mp4"
+  output_audio: "tts.wav"
+  output_video: "output_translated.mp4"

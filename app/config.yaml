@@ -1,0 +1,8 @@
+chunk_duration: 30   # seconds per segment
+source_lang: "en"
+target_lang: "fr"
+models:
+  stt: "Systran/faster-whisper-tiny"
+  translator: "Helsinki-NLP/opus-mt-en-fr"
+tts:
+  voice: "fr-FR-DeniseNeural"
